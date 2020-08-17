@@ -2,6 +2,7 @@
 <html>
 <head>
 <title>Online CarShop</title>
+<link rel="icon" type="image/x-icon" href="assets/img/steering-wheel.svg">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
@@ -13,17 +14,15 @@
 body {
   font-family: Impact, Charcoal, sans-serif;
   margin: 0;
-  background-image: url("assets/img/luxury_car.jpg");
-  background-attachment: fixed;
-  background-size: cover;
+ background-color: black;
 }
 
 /* Header/logo Title */
 .header {
   padding: 60px;
   text-align: left;
-  
-  color: black;
+  background-color: crimson;
+  color: whitesmoke;
 }
 
 /* Style the top navigation bar */
@@ -34,7 +33,8 @@ body {
 
 /* Style the navigation bar links */
 .navbar a {
-  color: black;
+  background-color: black;
+  color: whitesmoke;
   padding: 14px 20px;
   text-decoration-thickness: 5px;
   text-align: center;
@@ -42,13 +42,15 @@ body {
 
 /* Change color on hover */
 .navbar a:hover {
-  color:#6666ff;
+  color: gray;
 }
 
 /* Column container */
 .row {  
   display: flex;
   flex-wrap: wrap;
+  color: whitesmoke;
+  background-color: black;
 }
 
 /* Create two unequal columns that sits next to each other */
@@ -65,15 +67,17 @@ body {
 }
 
 /* Fake image, just for this example */
-.fakeimg {
+.expo {
   width: 100%;
-  padding: 20px;
+  padding: 15px;
 }
 
 /* Footer */
 .footer {
   padding: 20px;
-  text-align: center;
+  text-align: left;
+  color: whitesmoke;
+  background-color: black;
 
 }
 
@@ -90,7 +94,8 @@ body {
 <!-- Navigation Bar -->
 <div class="navbar">
     <a href="#">Shop</a>
-    <a href="#"><img alt="buy"src="file:///C:/Users/marti/Downloads/buy.svg" width="20" height="auto"> </a>
+    <a href="#">Help</a>
+    <a href="#"><img alt="buy"src="file:///C:/Users/marti/Documents/Projects/WebSite/src/assets/img/buy%20(1).svg" width="20" height="auto"> </a>
 </div>
 
  <!-- Header -->
@@ -103,21 +108,22 @@ body {
 <div class="row">
     <div class="side">
         <h2>About Us</h2>
-        <p></p>
-        <h3>More Text</h3>
-        <p>Lorem ipsum dolor sit ame.</p>
-        <div class="fakeimg" style="height:60px;">Image</div><br>
+        <p>CarShop is a luxury car dealer such as <i> Lamborghini, Ferrari, Maserati, Porsche, BMW  </i> and many other brands.<br>
+         You can buy and contact us online or you can visit us at our headquarters in Mongiuffi (ME), Blabla street n. 123. </p>
+        <a onmouseover="" href="#" src="">Checkout the latest car models!</a> <!--da mettere onmouseover con funzione da fare rip-->
+        <div class="" style="height:60px;">Image</div><br>
         <div class="fakeimg" style="height:60px;">Image</div><br>
         <div class="fakeimg" style="height:60px;">Image</div>
     </div>
     <div class="main">
-        <h2>TITLE HEADING</h2>
-        <h5>Title description, Dec 7, 2017</h5>
-        <div class="fakeimg" style="height:200px;">Image</div>
-        <p>Some text..</p>
-        <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-            ullamco.</p>
+        <h2>WE RECOMMEND:</h2>
+        <div class="expo" style="height:600px;"><img alt="Lamborghini" src="C:\Users\marti\Documents\Projects\WebSite\src\assets\lamborghini_homepage.jpg"width="500" height="auto"></div>
+        <!--da mettere link al prodotto nella pagina dove si acquista-->
+        <div class="expo" style="height:600px;"><img alt="Ferrari" src="C:\Users\marti\Documents\Projects\WebSite\src\assets\ferrarif8_homepage.jpg"width="500" height="auto"></div>
+        <!--da mettere link al prodotto nella pagina dove si acquista-->
+        <div class="expo" style="height:600px;"><img alt="BMW" src="C:\Users\marti\Documents\Projects\WebSite\src\assets\BMW-i8-9-630x420_homepage.jpg"width="500" height="auto"></div>
+        <!--da mettere link al prodotto nella pagina dove si acquista-->
+
         <br>
         <h2>TITLE HEADING</h2>
         <h5>Title description, Sep 2, 2017</h5>
@@ -131,8 +137,12 @@ body {
 
 <!-- Footer -->
 <div class="footer">
-    <h2>Footer</h2>
-</div>
+    <h2>Conctat Us</h2>
+    <p>E-mail: martinafortuna2002@gmail.com</p> 
+    <p>Facebook: <a href="https://www.facebook.com/Martina-1894287314150517"><img alt="Facebook" src="file:///C:/Users/marti/Documents/Projects/WebSite/src/assets/img/facebook.svg" width="30" height="30"> </a> </p>
+    <p>Instagram: <a href="https://www.instagram.com/effervescent_fox/?hl=it"><img alt="Instagram" src="file:///C:/Users/marti/Documents/Projects/WebSite/src/assets/img/instagram.svg" width="30" height="30"> </a></p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3147.8538082835485!2d15.275501315279877!3d37.91047962973495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x131416d004c831a7%3A0x45725c369a8ec8aa!2s98030%20Mongiuffi%20ME!5e0!3m2!1sit!2sit!4v1597675642374!5m2!1sit!2sit" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  </div>
 
 </body>
 
