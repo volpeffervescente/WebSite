@@ -6,100 +6,7 @@
   <link rel="icon" type="image/x-icon" href="assets/img/steering-wheel.svg">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    * {
-      box-sizing: border-box;
-    }
-
-    /* Style the body */
-    body {
-      font-family: Impact, Charcoal, sans-serif;
-      margin: 0;
-      background-color: black;
-    }
-
-    /* Header/logo Title */
-    .header {
-      padding: 60px;
-      text-align: left;
-      background-color: crimson;
-      color: whitesmoke;
-    }
-
-    /* Style the top navigation bar */
-    .navbar {
-      display: flex;
-      justify-content: flex-end;
-    }
-
-    /* Style the navigation bar links */
-    .navbar a {
-      background-color: black;
-      color: whitesmoke;
-      padding: 14px 20px;
-      text-decoration-thickness: 5px;
-      text-align: center;
-    }
-
-    /* Change color on hover */
-    .navbar a:hover {
-      color: gray;
-    }
-
-    /* Column container */
-    .row {
-      display: flex;
-      flex-wrap: wrap;
-      color: whitesmoke;
-      background-color: black;
-    }
-
-    /* Create two unequal columns that sits next to each other */
-    /* Sidebar/left column */
-    .side {
-      flex: 30%;
-      padding: 20px;
-    }
-
-    /* Main column */
-    .main {
-      flex: 70%;
-      padding: 20px;
-    }
-
-    /* image, just for example */
-    .expo {
-      width: 100%;
-      padding: 15px;
-    }
-
-    /* Footer */
-    .footer {
-      padding: 20px;
-      text-align: left;
-      color: whitesmoke;
-      background-color: black;
-    }
-
-    /* Map */
-    .map {
-      display: flex;
-      justify-content: flex-end;
-      align-content: center;
-      background-color: navy;
-      padding: 10px;
-    }
-
-
-    /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
-    @media screen and (max-width: 700px) {
-
-      .row,
-      .navbar {
-        flex-direction: column;
-      }
-    }
-  </style>
+  <link rel="stylesheet" type="text/css" href="css/main.css">  
 </head>
 
 <body>
@@ -113,22 +20,20 @@
 
   <!-- Header -->
   <div class="header">
-    <h1 style="color:navy;">CarShop</h1>
-    <p>The best online store with exclusive cars.</p>
+    <h1 style="color:navy; font-size: 65px;">CarShop</h1>
+    <p style="font-size: 25px;">The best online store with exclusive cars.</p>
   </div>
 
   <!-- The flexible grid (content) -->
   <div class="row">
     <div class="side">
       <h2>About Us</h2>
-      <p>CarShop is a luxury car dealer such as <i> Lamborghini, Ferrari, Maserati, Porsche, BMW </i> and many other
+      <p>CarShop is a luxury car dealer such as <i> Lamborghini, Ferrari, Maserati, Porsche, BMW </i> &nbsp; and many other
         brands.<br>
         You can buy and contact us online or you can visit us at our headquarters in Mongiuffi (ME), Blabla street n.
         123. </p>
       <a id="demo" onmouseover="mouseOver()" href="#">Checkout the latest car models!</a>
-      <div class="" style="height:60px;">Image</div><br>
-      <div class="fakeimg" style="height:60px;">Image</div><br>
-      <div class="fakeimg" style="height:60px;">Image</div>imageClass
+
     </div>
     <div class="main">
       <h2>WE RECOMMEND:</h2>
@@ -142,14 +47,6 @@
           height="auto"></div>
       <!--da mettere link al prodotto nella pagina dove si acquista-->
 
-      <br>
-      <h2>TITLE HEADING</h2>
-      <h5>Title description, Sep 2, 2017</h5>
-      <div class="fakeimg" style="height:200px;">Image</div>
-      <p>Some text..</p>
-      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-        ullamco.</p>
     </div>
   </div>
 
@@ -158,6 +55,7 @@
     <div>
       <h2>Conctat Us</h2>
       <p>E-mail: martinafortuna2002@gmail.com</p>
+      <p>Telephone number: 333-456-7890</p>
       <p>Facebook: <a href="https://www.facebook.com/Martina-1894287314150517"><img alt="Facebook"
             src="file:///C:/Users/marti/Documents/Projects/WebSite/src/assets/img/facebook.svg" width="30" height="30">
         </a> </p>
@@ -166,6 +64,8 @@
         </a></p>
     </div>
     <div style="margin-left:auto;">
+      <h2>Where we are:</h2>
+      <p>Mongiuffi(ME), Blabla street n.123.</p>
       <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3147.8538082835485!2d15.275501315279877!3d37.91047962973495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x131416d004c831a7%3A0x45725c369a8ec8aa!2s98030%20Mongiuffi%20ME!5e0!3m2!1sit!2sit!4v1597675642374!5m2!1sit!2sit" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </div>
   </div>
