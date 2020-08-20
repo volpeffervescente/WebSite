@@ -50,6 +50,7 @@
     .side {
       flex: 30%;
       padding: 20px;
+      font-stretch: expanded;
     }
 
     /* Main column */
@@ -60,16 +61,25 @@
 
     /* image, just for example */
     .expo {
-      width: 50%;
+      display: flex;
+      width: 100%;
       padding: 15px;
-      background-color: whitesmoke;
+      background-color: rgba(0, 0, 128, 0.267);
+      color: whitesmoke;
+    }
+    
+    /* car description */
+    .description {
+      margin: 150px;
     }
     /*fake review */
     .rec{
         width: 100%;
         padding: 15px;
+        margin-top: 30px;
         border: navy;
         border-style: inset;
+        color: whitesmoke;
     }
     /* Footer */
     .footer {
