@@ -49,7 +49,7 @@
     /* Sidebar/left column */
     .side {
       flex: 30%;
-      padding: 20px;
+      padding: 15px;
       font-stretch: expanded;
     }
 
@@ -61,24 +61,25 @@
 
     /* image, just for example */
     .expo {
-      display: flex;
+      margin: auto;
+      display: flex;  
       width: 100%;
       padding: 15px;
-      background-color: rgba(0, 0, 128, 0.267);
       color: whitesmoke;
+      background-color: rgba(0, 0, 128, 0.267);
     }
-    
     /* car description */
     .description {
-      margin: 150px;
+      margin-left: 20px;
+      
     }
     /*fake review */
     .rec{
         width: 100%;
         padding: 15px;
         margin-top: 30px;
-        border: navy;
-        border-style: inset;
+        border-top: navy;
+        border-top-style: inset;
         color: whitesmoke;
     }
     /* Footer */
@@ -89,6 +90,13 @@
       background-color: crimson;
     }
 
+    .cb {
+      display: flex;
+      justify-content: center;
+      padding: 10px;
+      margin: 10px;
+      border-top: inset 1px navy;
+    }
     /* Map */
     .map {
       display: flex;
