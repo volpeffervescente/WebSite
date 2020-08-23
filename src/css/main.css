@@ -47,16 +47,25 @@
 
     /* Create two unequal columns that sits next to each other */
     /* Sidebar/left column */
-    .side {
+    .side1 {
       flex: 30%;
       padding: 15px;
       font-stretch: expanded;
     }
 
     /* Main column */
-    .main {
+    .main1 {
       flex: 70%;
       padding: 8px;
+    }
+
+    .main2 {
+      display: flex;
+      flex: 100% ;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      margin-bottom: 70px;
     }
 
     /* image, just for example */
@@ -93,8 +102,8 @@
     .cb {
       display: flex;
       justify-content: center;
-      padding: 10px;
-      margin: 10px;
+      padding-top: 10px;
+      margin-top: 10px;
       border-top: inset 1px navy;
     }
     /* Map */
