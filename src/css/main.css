@@ -45,6 +45,12 @@
       background-color: black;
     }
 
+    .row2 {
+      display: flex;
+      color: whitesmoke;
+      background-color: black;
+    }
+
     /* Create two unequal columns that sits next to each other */
     /* Sidebar/left column */
     .side1 {
@@ -115,6 +121,19 @@
       padding: 10px;
     }
 
+    .col {
+      display: flex;
+      flex: 50%;
+      padding: 30px;
+      margin: 15px;
+      border-left: 5px navy;
+      border-right: 5px navy;
+      flex-flow: wrap;
+      max-width: 50%;
+      flex-direction: column;
+      align-items: center;
+      align-content: stretch;
+    }
 
     /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
     @media screen and (max-width: 700px) {
